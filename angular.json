@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -92,6 +93,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-ivy-rxjs-dashboard"
+    }
+  },
+  "defaultProject": "angular-ivy-rxjs-dashboard",
+  "cli": {
+    "analytics": "e10d63bc-33d8-40a9-9a2e-74c3935d98ca"
+  }
 }
